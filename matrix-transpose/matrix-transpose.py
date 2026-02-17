@@ -5,5 +5,5 @@ def matrix_transpose(A):
     Return the transpose of matrix A (swap rows and columns).
     """
     # Write code here
-    transpose  = np.matrix_transpose(A)
+    transpose = A.T
     return transpose
